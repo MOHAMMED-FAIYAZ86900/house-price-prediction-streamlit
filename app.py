@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 
 # Load the trained model
-model = joblib.load("model.pkl")
+model = joblib.load("house_price_model.pkl")
 
 st.title("🏠 House Price Prediction App")
 st.write("Enter the details below to predict the house price.")
