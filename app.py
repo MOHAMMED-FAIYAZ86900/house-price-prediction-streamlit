@@ -38,7 +38,7 @@ st.markdown("""
 # LOAD MODELS
 # -------------------------------
 models = {
-    "Linear Regression": joblib.load("lr_model.pkl"),
+    "Linear Regression": joblib.load("house_price_model.pkl"),
     "Random Forest": joblib.load("rf_model.pkl"),
     "XGBoost": joblib.load("xgb_model.pkl")
 }
