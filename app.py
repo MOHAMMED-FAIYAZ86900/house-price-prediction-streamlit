@@ -69,7 +69,7 @@ body {
 # ---------------------------
 # LOAD MODELS
 # ---------------------------
-model_lr = joblib.load("model.pkl")
+model_lr = joblib.load("lr_model.pkl")
 rf_model = joblib.load("rf_model_small.pkl")
 scaler = joblib.load("scaler.pkl")
 
