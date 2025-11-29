@@ -2,7 +2,9 @@ streamlit
 numpy
 pandas
 scikit-learn
-matplotlib
 joblib
-xgboost
-Pillow
+requests
+streamlit-lottie
+fpdf
+folium
+streamlit-folium
